@@ -8,7 +8,7 @@ import (
 const (
 	// org1CfgPath = "./config/org1sdk-config.yaml"
 	// org2CfgPath = "./config/org2sdk-config.yaml"
-	cfgPath = "./config/connection-profile.yaml"
+	cfgPath = "../../config/connection-profile.yaml"
 )
 
 var (
