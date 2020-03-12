@@ -30,7 +30,7 @@ func main() {
 	// Phase2(org1Client, org2Client)
 }
 
-func Phase1(cli1) {
+func Phase1(cli1 *cli.Client) {
 	log.Println("=================== Phase 1 begin ===================")
 	defer log.Println("=================== Phase 1 end ===================")
 
